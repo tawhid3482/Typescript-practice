@@ -30,4 +30,35 @@ then check node -v
 
 Q-8: how to install typescript and check version ?
 ans: npm install -g typescript ,  tsc -v
-Q-9: 
+Q-9: how to convert ts code to js code?
+ans: tsc [file name.ts]
+Q-10: how config ts file?
+ans: tsc -init then set the rootDir, outDir and tsc command in the terminal.
+Q-11: how convert ts code older version ?
+ans : tsconfig.json a target change
+Q-12: TS data type?
+1) Primitive -> number, string , boolean, null, undefined, symbol
+2) array, tuple, object
+Q-12: Can we get typescript type in run time?
+ans : no,  because we donot rn typescript. we convert ts to js then run the js code.
+Q-13: Tuple example?
+ans: let ageName: [number, string] = [15, "tawhid"];
+Q-14: Object example?
+ans: const user: {
+  name: string;
+  photo: string;
+  age: number;
+  IsMale: boolean;
+  IsMarried?: boolean; // optional type
+  profession:'developer', // type -> literal types
+} = {
+  name: "kabir ",
+  photo: "ghsrergfddgfgng.png",
+  age: 15,
+  IsMale: false,
+  profession:'developer'
+};
+
+Q-15: what is method?
+ans: when a function in a object it's call method 
+
