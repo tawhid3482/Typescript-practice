@@ -1,0 +1,33 @@
+Q-1: What is Typescript?
+Ans=> Typescript is an Object Oriented Programming Language that is built on top of JS with extra features.
+Q-2: JS problem?
+Ans: When working in a large application with multiple developers it's very difficult to main large codebase. hard to find bugs, catch errors only in runtime.
+Q-3: Can browser really recognized Typescript?
+ans: NO.
+Q-4: Typescript benefits?
+ans: 
+*) supports older browser, 
+*) type safety,
+*) increase your productivity, 
+*) less bugs and less testing.
+
+Q-5:Drawbacks of using Typescript ?
+ans: 
+*) Type complexities, 
+*) limited library support,
+*) over engineering, 
+*) Migration challenge.
+Q-6: how check node version?
+ans: node -v
+Q-7: how to switch any version of node?
+ans: install nvm(node version manager).
+then 
+nvm -v
+nvm ls
+nvm install [version]
+nvm use [version]
+then check node -v
+
+Q-8: how to install typescript and check version ?
+ans: npm install -g typescript ,  tsc -v
+Q-9: 
