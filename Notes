@@ -61,4 +61,6 @@ ans: const user: {
 
 Q-15: what is method?
 ans: when a function in a object it's call method 
+Q -16 : what is nullish coalescing operator?
+ans: when make decision by null/ undefined it's called nullish coalescing
 
