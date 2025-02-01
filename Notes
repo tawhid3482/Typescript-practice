@@ -1,9 +1,12 @@
 Q-1: What is Typescript?
 Ans=> Typescript is an Object Oriented Programming Language that is built on top of JS with extra features.
 Q-2: JS problem?
+
 Ans: When working in a large application with multiple developers it's very difficult to main large codebase. hard to find bugs, catch errors only in runtime.
+
 Q-3: Can browser really recognized Typescript?
 ans: NO.
+
 Q-4: Typescript benefits?
 ans: 
 *) supports older browser, 
@@ -17,8 +20,10 @@ ans:
 *) limited library support,
 *) over engineering, 
 *) Migration challenge.
-Q-6: how check node version?
+
+Q-6: how to check node version?
 ans: node -v
+
 Q-7: how to switch any version of node?
 ans: install nvm(node version manager).
 then 
@@ -30,19 +35,26 @@ then check node -v
 
 Q-8: how to install typescript and check version ?
 ans: npm install -g typescript ,  tsc -v
+
 Q-9: how to convert ts code to js code?
 ans: tsc [file name.ts]
+
 Q-10: how config ts file?
 ans: tsc -init then set the rootDir, outDir and tsc command in the terminal.
+
 Q-11: how convert ts code older version ?
-ans : tsconfig.json a target change
+ans :change the target tsconfig.json  
+
 Q-12: TS data type?
 1) Primitive -> number, string , boolean, null, undefined, symbol
 2) array, tuple, object
+
 Q-12: Can we get typescript type in run time?
 ans : no,  because we donot rn typescript. we convert ts to js then run the js code.
+
 Q-13: Tuple example?
 ans: let ageName: [number, string] = [15, "tawhid"];
+
 Q-14: Object example?
 ans: const user: {
   name: string;
@@ -61,6 +73,16 @@ ans: const user: {
 
 Q-15: what is method?
 ans: when a function in a object it's call method 
+
 Q -16 : what is nullish coalescing operator?
 ans: when make decision by null/ undefined it's called nullish coalescing
+
+Q-17: what is type assertion?
+ans:  Type assertion is a technique that informs the compiler about the type of a variable. when dev understand better type  than typescript.
+
+Q-18: when we can use interface?
+ans: In Object  and type alias for any
+
+Q-19: what is generic type?
+ans : Generics are a TypeScript feature that allows us to pass in various types of data and create reusable code to handle different inputs.
 

@@ -1,5 +1,5 @@
 {
-  // union types
+  // union types |
 
   type User = {
     name: string;
@@ -23,6 +23,9 @@
     skills: string[];
     level2: number;
   };
+
+
+  // intersection &
 
   type FullStackDev = frontendDev & backendDev;
 
