@@ -86,3 +86,12 @@ ans: In Object  and type alias for any
 Q-19: what is generic type?
 ans : Generics are a TypeScript feature that allows us to pass in various types of data and create reusable code to handle different inputs.
 
+Q-20: what is OOP?
+ans: A programming paradigm that organizes and models software.
+
+Q-21: what is paradigm?
+ans: The style used to write and organize code.
+
+Q-22: building blocks of oop?
+ans : inheritance , polymorphism, abstraction, Encapsulation
+
