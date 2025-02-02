@@ -10,7 +10,12 @@
   const RollArray1: GenericType<number> = [15, 6, 6, 65];
   const nameArray1: GenericType<string> = ["ami", "tumi", "kamla"];
 
-  const user: GenericType<{ name: string; age: number }> = [
+  type User = {
+    name: string;
+    age: number;
+  };
+
+  const user: GenericType<User> = [
     {
       name: "ami",
       age: 15,
@@ -26,4 +31,9 @@
   type GenericTuple<X, Y> = [X, Y];
 
   const manush: GenericTuple<string, number> = ["ami", 15];
+
+  const userWithId: GenericTuple<number, { name: string; email: string }> = [
+    157,
+    { name: "asg", email: "aeorgh" },
+  ];
 }
