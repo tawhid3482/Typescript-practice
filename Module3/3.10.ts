@@ -1,4 +1,6 @@
 {
+  // Encapsulation
+
   // access modifier
   class BankAccont {
     readonly id: number;
@@ -14,8 +16,11 @@
       this._balance = this._balance + amount;
     }
 
-    getBalance() {
+   private getBalance() {
       return this._balance;
+    }
+    getHiddenMehtod(){
+        return this.getBalance()
     }
   }
 
@@ -27,6 +32,6 @@
 
   const account = new BankAccont(111, "saikat", 20);
   account.addDeposit(45);
-  const res = account.getBalance();
+  const res = account.getHiddenMehtod();
   console.log(res);
 }
